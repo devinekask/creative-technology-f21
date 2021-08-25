@@ -6,17 +6,17 @@ This course is the finalizing technical / coding course at [Devine, a 3 year Bac
 
 The following topics are covered for all students:
 
-### [Week 1 - WebGL](webgl)
-
-2D Webgl fragment shaders & 3D using ThreeJS.
-
-### [Week 2 - Communication](communication)
+### [Week 1 - Communication](communication)
 
 Real time communication using websockets and WebRTC.
 
-### [Week 3 - AI](ai)
+### [Week 2 - AI](ai)
 
 Introduction in practical AI / ML for interactive pieces.
+
+### [Week 3 - WebGL](webgl)
+
+2D WebGL fragment shaders & 3D using ThreeJS.
 
 ### [Week 4 - React Native](react-native)
 
@@ -34,9 +34,9 @@ When following this course as an "Expert", we'll cover these extra topics:
 
 Arduino Recap workshop.
 
-### [Week 1 & 2 - iOS](ios)
+### [Week 1 & 2 - Swift](swift)
 
-First steps in building iOS applications with SwiftUI.
+First steps in building native applications with Swift & SwiftUI.
 
 ### [Week 3 & 4 - Unity](unity)
 

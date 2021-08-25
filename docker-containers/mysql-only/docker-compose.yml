@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  mysql:
+    image: mariadb:10.5.9
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./db:/var/lib/mysql
+    environment:
+      MYSQL_SERVERNAME: localhost
+      MYSQL_USERNAME: root
+      MYSQL_ROOT_PASSWORD: devine4life

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_coffees_order_items",
+  "info": {
+    "name": "orderItems",
+    "icon": "coffee"
+  },
+  "options": {},
+  "attributes": {
+    "coffee": {
+      "model": "coffee"
+    },
+    "amount": {
+      "type": "integer"
+    }
+  }
+}

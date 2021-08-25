@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "Order",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "orderItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "coffees.order-items"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "done"
+      ],
+      "default": "pending"
+    }
+  }
+}

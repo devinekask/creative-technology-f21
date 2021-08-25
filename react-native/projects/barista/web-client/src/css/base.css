@@ -1,0 +1,18 @@
+
+html {
+  box-sizing: border-box;
+}
+
+/* stylelint-disable */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* stylelint-enable */
+
+body {
+  font-size: var(--fontRegular);
+  background-color: var(--colorLightest);
+  color: var(--colorText);
+}

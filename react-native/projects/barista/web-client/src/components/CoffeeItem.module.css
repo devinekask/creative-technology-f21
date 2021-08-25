@@ -1,0 +1,58 @@
+.price__button {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--colorLightest);
+  padding: var(--spacerSmall);
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-align: left;
+}
+
+.price__button__wrapper {
+  display: flex;
+  align-items: center;
+  margin-right: var(--spacerSmall);
+}
+@media only screen and (min-width: 360px) {
+  .price__button__wrapper {
+    display: block;
+  }
+}
+
+.price__button__name {
+  display: block;
+  white-space: nowrap;
+  margin-right: var(--spacerSmall);
+}
+@media only screen and (min-width: 360px) {
+  .price__button__name {
+    margin-right: 0;
+  }
+}
+
+.price__button__amount {
+  font-size: var(--fontSmall);
+  color: var(--colorGrayDark);
+  padding-top: calc(var(--spacerSmall) / 3);
+}
+@media only screen and (min-width: 360px) {
+  .price__button__amount {
+    padding-top: 0;
+  }
+}
+
+.price__button__plus {
+  display: block;
+  padding: calc(var(--spacerSmall) / 2.5) calc(var(--spacerSmall) * 1);
+  background: var(--colorSecondary);
+  border-radius: 0.3rem;
+}
+
+@media only screen and (min-width: 360px) {
+  .price__button__plus {
+    padding: var(--spacerSmall) calc(var(--spacerSmall) * 1.1);
+  }
+}

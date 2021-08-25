@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coffees",
+  "info": {
+    "name": "Coffee",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "plantbased": {
+      "type": "boolean",
+      "default": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}

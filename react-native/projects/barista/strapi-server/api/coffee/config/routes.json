@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/coffees",
+      "handler": "coffee.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/coffees/count",
+      "handler": "coffee.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/coffees/:id",
+      "handler": "coffee.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/coffees",
+      "handler": "coffee.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/coffees/:id",
+      "handler": "coffee.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/coffees/:id",
+      "handler": "coffee.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
