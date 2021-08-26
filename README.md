@@ -1,4 +1,4 @@
-# Creative Development, Fall 2021
+# Creative Technology, Fall 2021
 
 This course is the finalizing technical / coding course at [Devine, a 3 year Bachelor degree](https://devine.be). We'll teach you the basic principles and frameworks to get started with alternative ways of interaction (aka non keyboard / mouse interaction).
 
