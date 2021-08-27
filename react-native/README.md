@@ -729,4 +729,5 @@ We've barely scratched the surface of what you can do using React Native.
 
 - Provide App icons and a splash screen
 - Try running the app on your physical device
+- Did it actually happen, if it's not on social media? Add an image capture screen with share functionality.
 - Take a look at https://github.com/jondot/awesome-react-native
