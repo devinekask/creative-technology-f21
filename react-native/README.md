@@ -722,3 +722,11 @@ if (resp.ok) {
 Test the app. It now animates to a separate screen after placing the order:
 
 ![screenshot barista 09](projects/barista/screenshots/react-native-barista-09.png)
+
+## Where to go from here
+
+We've barely scratched the surface of what you can do using React Native.
+
+- Provide App icons and a splash screen
+- Try running the app on your physical device
+- Take a look at https://github.com/jondot/awesome-react-native
