@@ -30,9 +30,9 @@ You'll present your research on a given library / framework
 
 When following this course as an "Expert", we'll cover these extra topics:
 
-### [Intro - Arduino](arduino)
+### [Intro - Lasercutting]
 
-Arduino Recap workshop.
+Lasercutting workshop at Budalab
 
 ### [Week 1 & 2 - Swift](swift)
 
