@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="App">
-      <div>{messages.map(message => <div>{message}</div>)}</div>  
+      <div>{messages.map((message, index) => <div key={index}>{message}</div>)}</div>
       <form onSubmit={onSubmit}>
         <input type="text" value={messageInput} onChange={(event) => {
           setMessageInput(event.target.value);
