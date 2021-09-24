@@ -5,7 +5,6 @@ import './App.css';
 function App() {
 
   const [messages, setMessages] = useState([{ msg: "Hello", id: "125" }]);
-  const [ids, setIds] = useState(['123', '1234']);
   const [messageInput, setMessageInput] = useState('');
   const socketRef = useRef();
 
