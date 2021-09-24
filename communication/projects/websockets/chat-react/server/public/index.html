@@ -49,9 +49,9 @@
       socket.on('connect', () => {
         console.log(`Connected: ${socket.id}`);
       });
-      socket.on('message', message => {
-        console.log(`Received message: ${message}`);
-        $messages.value += `${message}\n`;
+      socket.on('message', messageObj => {
+        console.log(`Received message: ${messageObj.msg}`);
+        $messages.value += `${messageObj.msg}\n`;
       });
       $msgForm.addEventListener('submit', e => handleSubmitMessage(e));
     };

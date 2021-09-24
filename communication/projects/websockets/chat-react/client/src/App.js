@@ -4,7 +4,8 @@ import './App.css';
 
 function App() {
 
-  const [messages, setMessages] = useState(['hello', 'world']);
+  const [messages, setMessages] = useState([{ msg: "Hello", id: "125" }]);
+  const [ids, setIds] = useState(['123', '1234']);
   const [messageInput, setMessageInput] = useState('');
   const socketRef = useRef();
 
@@ -17,10 +18,9 @@ function App() {
     socketRef.current.on('connect', () => {
       console.log('connected');
     });
-    socketRef.current.on('message', message => {
-      console.log('on message', message);
+    socketRef.current.on('message', messageObj => {
       setMessages(previous => {
-        const messagesCopy = [...previous, message];
+        const messagesCopy = [...previous, messageObj];
         return messagesCopy;
       });
     });
@@ -29,14 +29,13 @@ function App() {
 
   const onSubmit = (event) => {
     event.preventDefault();
-    console.log('send message', messageInput);
     socketRef.current.emit('message', messageInput);
     setMessageInput('');
   };
 
   return (
     <div className="App">
-      <div>{messages.map((message, index) => <div key={index}>{message}</div>)}</div>
+      <div>{messages.map((messages) => <div key={messages.id}>{messages.msg}</div>)}</div>
       <form onSubmit={onSubmit}>
         <input type="text" value={messageInput} onChange={(event) => {
           setMessageInput(event.target.value);

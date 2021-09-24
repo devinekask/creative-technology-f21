@@ -14,8 +14,9 @@ io.on('connection', socket => {
   // console.log('Socket connected', socket.id);
 
   socket.on('message', message => {
-    console.log('message received', message);
-    io.sockets.emit(`message`, message);
+    let messageObj = { msg: message, id: socket.id }
+    console.log('message received', messageObj.msg, 'from', messageObj.id);
+    io.sockets.emit(`message`, messageObj,);
   });
 
 });
