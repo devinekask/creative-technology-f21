@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
 
-  const [messages, setMessages] = useState([{ msg: "Hello", id: "125" }]);
+  const [messages, setMessages] = useState([{ msg: "Hello", key: "125" }]);
   const [messageInput, setMessageInput] = useState('');
   const socketRef = useRef();
 
@@ -28,13 +28,15 @@ function App() {
 
   const onSubmit = (event) => {
     event.preventDefault();
-    socketRef.current.emit('message', messageInput);
+    let messageArray = [messageInput, event.timeStamp]
+    socketRef.current.emit('message', messageArray);
     setMessageInput('');
   };
+  
 
   return (
     <div className="App">
-      <div>{messages.map((messages) => <div key={messages.id}>{messages.msg}</div>)}</div>
+      <div>{messages.map((messages) => <div key={messages.key}>{messages.msg}</div>)}</div>
       <form onSubmit={onSubmit}>
         <input type="text" value={messageInput} onChange={(event) => {
           setMessageInput(event.target.value);
