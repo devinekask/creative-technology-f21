@@ -1,9 +1,11 @@
+.vscode/
 .DS_Store
 
 wip/
 
 dist/
 *.cert
+*.crt
 *.key
 
 # Logs
