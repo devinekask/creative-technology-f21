@@ -1,0 +1,72 @@
+[
+  {
+    "id":1,
+    "name":"Oat Latte",
+    "plantbased":true,
+    "description":"Latte coffee with oat plant milk.",
+    "price":3.5,
+    "published_at":"2021-08-18T09:45:49.000Z",
+    "created_at":"2021-08-18T09:45:32.000Z",
+    "updated_at":"2021-08-18T09:45:49.000Z"
+  },
+  {
+    "id":2,
+    "name":"Soy Latte",
+    "plantbased":true,
+    "description":"Latte coffee with soy plant milk.",
+    "price":2,
+    "published_at":"2021-08-18T09:46:15.000Z",
+    "created_at":"2021-08-18T09:46:14.000Z",
+    "updated_at":"2021-08-18T09:46:15.000Z"
+  },
+  {
+    "id":3,
+    "name":"Rice Latte",
+    "plantbased":true,
+    "description":"Latte coffee with rice plant milk.",
+    "price":3.5,
+    "published_at":"2021-08-18T09:46:33.000Z",
+    "created_at":"2021-08-18T09:46:31.000Z",
+    "updated_at":"2021-08-18T09:46:33.000Z"
+  },
+  {
+    "id":4,
+    "name":"Koko Latte",
+    "plantbased":true,
+    "description":"Latte coffee with coconut milk.",
+    "price":2,
+    "published_at":"2021-08-18T09:46:55.000Z",
+    "created_at":"2021-08-18T09:46:53.000Z",
+    "updated_at":"2021-08-18T09:46:55.000Z"
+  },
+  {
+    "id":5,
+    "name":"Pumpkin Spice Latte",
+    "plantbased":false,
+    "description":"Our signature espresso and milk are highlighted by flavor notes of pumpkin, cinnamon, nutmeg and clove to create this incredible beverage that's a fall favorite. Enjoy it topped with whipped cream and real pumpkin pie spices.",
+    "price":4.95,
+    "published_at":"2021-08-18T09:47:31.000Z",
+    "created_at":"2021-08-18T09:47:29.000Z",
+    "updated_at":"2021-08-18T09:47:31.000Z"
+  },
+  {
+    "id":6,
+    "name":"Salted Caramel Mocha",
+    "plantbased":false,
+    "description":"Mocha sauce and toffee nut syrup are combined with coffee and steamed milk, then topped with sweetened whipped cream, caramel drizzle and a blend of turbinado sugar and sea salt. Enjoy the flavors of fall in every sip.",
+    "price":4.95,
+    "published_at":"2021-08-18T09:48:20.000Z",
+    "created_at":"2021-08-18T09:48:18.000Z",
+    "updated_at":"2021-08-18T09:48:20.000Z"
+  },
+  {
+    "id":7,
+    "name":"Toasted Graham Latte",
+    "plantbased":false,
+    "description":"Graham and sweet cream meet steamed milk and our signature espresso, then are finished off with a sprinkling of cinnamon graham crumbles for a less sweet perfect treat.",
+    "price":4.95,
+    "published_at":"2021-08-18T09:48:46.000Z",
+    "created_at":"2021-08-18T09:48:45.000Z",
+    "updated_at":"2021-08-18T09:48:46.000Z"
+  }
+]
