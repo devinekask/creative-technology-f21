@@ -11,11 +11,10 @@ const io = require('socket.io')(server, {
 });
 
 io.on('connection', socket => {
-  // console.log('Socket connected', socket.id);
-
   socket.on('message', message => {
-    console.log('message received', message);
-    io.sockets.emit(`message`, message);
+    let messageObj = { msg: message[0], key: message[1]}
+    console.log('message received', messageObj.msg, 'with timeStamp', messageObj.key);
+    io.sockets.emit(`message`, messageObj,);
   });
 
 });
